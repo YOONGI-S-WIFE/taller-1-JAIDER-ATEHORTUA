@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="span">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" type="image/jpg" href="https://i.pinimg.com/564x/55/44/2b/55442b10859716c3a7cb28815c62e3c6.jpg">
+ 
+    <title>GUIA 1</title>
+
+    <!-- ========== Icons ========== -->
+    
+ <script src="https://kit.fontawesome.com/861b3604ef.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="toggle-container">
+  
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            
+        </div>
+            <div class="navegation">
+
+                    <a href="index.html"><i class="fa-solid fa-house"></i>VOLVER A LA PAGINA PRINCIPAL</a>
+
+            </div>
+
+    </header>
+        
+        <div class="content">
+
+            <h1>Comprobador de Instructores</h1>
+  
+  <form id="comprobadorForm">
+
+    <label for="nombre">Nombre:</label>
+    <select id="nombre">
+
+      <option value="">Seleccionar nombre</option>
+      <option value="Juan">tatis</option>
+      <option value="María">fernando</option>
+      <option value="Carlos">margarita</option>
+
+    </select>
+    
+    <label for="apellido">Apellido:</label>
+    <select id="apellido">
+
+      <option value="">Seleccionar apellido</option>
+      <option value="Pérez">Pérez</option>
+      <option value="Gómez">galindo</option>
+      <option value="López">guarin</option>
+
+    </select>
+    
+    <label for="actividad">Actividad:</label>
+    <select id="actividad">
+
+      <option value="">Seleccionar actividad</option>
+      <option value="Matemáticas">java</option>
+      <option value="Historia">base de datos</option>
+      <option value="Arte">prototipado</option>
+
+    </select>
+    
+    <button type="button" onclick="comprobarRespuesta()">Comprobar</button>
+  </form>
+
+            </div>
+               
+            <script src="js/instructores.js"></script>
+            
+</body>
+
+</html>
+

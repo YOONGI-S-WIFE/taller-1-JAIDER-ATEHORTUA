@@ -1,0 +1,106 @@
+body {
+  
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url(https://i.pinimg.com/564x/2e/57/24/2e5724679b3f486a7a6cd90193fc2719.jpg);
+    background-size: 270px;
+    background-position: bottom;
+  
+    }
+  
+    
+    header {
+  
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 100vw;
+      height: 260px;
+  
+    }
+  
+    .toggle-container{
+  
+      background-color: #f27024;
+      height: 40px;
+      padding: 5px;
+  
+    }
+    
+    .menu-toggle {
+  
+    cursor: pointer;
+    padding: 10px;
+  
+    }
+    
+    .menu-toggle span {
+  
+    display: block;
+    width: 25px;
+    height: 3px;  
+    background-color: #fff;  
+    margin-bottom: 5px;
+    
+    }
+  
+    .navegation{
+
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f27024;
+      width: 300px;
+      height: 185px;
+      top: -260px;
+      transition: .5s ease;
+
+    }
+  
+    .navegation2{
+      position: relative;
+      top: 0;
+    }
+  
+    .navegation a{
+
+      text-align: center;
+      width: 90%;
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 10px;
+      border-bottom: 2px solid;
+
+    }
+  
+    .navegation a:hover{
+
+      background-color: orange;
+
+    }
+
+    .card {
+
+        display: inline-block;
+        width: 200px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        margin: 10px;
+        background-color: rgb(255, 255, 255, 0.7);
+
+      }
+  
+      .card img {
+
+        width: 150px;
+        height: 150px;
+
+      }
+  
+  
+  
